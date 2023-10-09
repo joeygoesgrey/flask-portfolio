@@ -267,6 +267,7 @@ def send_email():
 
 @app.route('/')
 def hello_world():
+    db.create_all()
     return 'Hello, World!'
 
 
