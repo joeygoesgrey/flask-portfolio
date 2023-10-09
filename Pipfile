@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+bleach = "*"
+werkzeug = "*"
+flask-wtf = "*"
+flask-executor = "*"
+flask-admin = "==1.6.1"
+python-dotenv = "*"
+flask-marshmallow = "*"
+flask-expects-json = "*"
+marshmallow-sqlalchemy = "*"
+pillow = "*"
+psycopg2-binary = "*"
+wtforms-sqlalchemy = "*"
+flask-cors = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
