@@ -97,6 +97,7 @@ class PortfolioForm(FlaskForm):
         'Tools and Technology', validators=[DataRequired()])
     repo_link = StringField('Repository Link')
     extra = StringField('Extra')
+    url = StringField('url')
 
 
 class ImageForm(FlaskForm):
