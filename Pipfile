@@ -20,6 +20,7 @@ pillow = "*"
 psycopg2-binary = "*"
 wtforms-sqlalchemy = "*"
 flask-cors = "*"
+python-decouple = "*"
 
 [dev-packages]
 
